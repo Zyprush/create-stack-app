@@ -37,9 +37,9 @@
     "url": "git+https://github.com/Zyprush/create-stack-app.git"
   },
   "bugs": {
-    "url": "https://github.com/Zyprush/@zyprush_org/create-stack-app/issues"
+    "url": "https://github.com/Zyprush/create-stack-app/issues"
   },
-  "homepage": "https://github.com/Zyprush/@zyprush_org/create-stack-app#readme",
+  "homepage": "https://github.com/Zyprush/create-stack-app#readme",
   "engines": {
     "node": ">=18"
   },
