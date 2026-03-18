@@ -50,3 +50,4 @@ test-app/
 # Temporary
 tmp/
 temp/
+.npmrc
