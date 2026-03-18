@@ -1,0 +1,63 @@
+{
+  "name": "create-stack-app",
+  "version": "0.1.0",
+  "description": "A modern CLI to scaffold full-stack applications with frameworks, auth, databases, and more",
+  "type": "module",
+  "bin": {
+    "create-stack-app": "./dist/cli.js"
+  },
+  "scripts": {
+    "dev": "tsx src/cli.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/cli.js",
+    "lint": "eslint .",
+    "prepublishOnly": "npm run build",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "cli",
+    "scaffold",
+    "boilerplate",
+    "fullstack",
+    "nextjs",
+    "react",
+    "vite",
+    "vue",
+    "svelte",
+    "auth",
+    "database",
+    "prisma",
+    "supabase",
+    "stripe"
+  ],
+  "author": "YOUR-NAME <YOUR-EMAIL>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YOUR-USERNAME/create-stack-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YOUR-USERNAME/create-stack-app/issues"
+  },
+  "homepage": "https://github.com/YOUR-USERNAME/create-stack-app#readme",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "commander": "^13.1.0",
+    "execa": "^9.6.0",
+    "fs-extra": "^11.3.0",
+    "prompts": "^2.4.2",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^22.13.10",
+    "@types/prompts": "^2.4.9",
+    "@typescript-eslint/eslint-plugin": "^8.56.1",
+    "@typescript-eslint/parser": "^8.56.1",
+    "eslint": "^9.39.4",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  }
+}

@@ -1,0 +1,12 @@
+src/
+test/
+tsconfig.json
+*.ts
+*.map
+.DS_Store
+AGENT.md
+.gitignore
+.eslintrc*
+eslint.config.js
+CONTRIBUTING.md
+LICENSE
