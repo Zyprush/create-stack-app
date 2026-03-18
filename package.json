@@ -30,16 +30,16 @@
     "supabase",
     "stripe"
   ],
-  "author": "YOUR-NAME <YOUR-EMAIL>",
+  "author": "Jake Denver Alberio alberiojake27@gmail.com",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YOUR-USERNAME/create-stack-app.git"
+    "url": "git+https://github.com/Zyprush/create-stack-app.git"
   },
   "bugs": {
-    "url": "https://github.com/YOUR-USERNAME/create-stack-app/issues"
+    "url": "https://github.com/Zyprush/create-stack-app/issues"
   },
-  "homepage": "https://github.com/YOUR-USERNAME/create-stack-app#readme",
+  "homepage": "https://github.com/Zyprush/create-stack-app#readme",
   "engines": {
     "node": ">=18"
   },
