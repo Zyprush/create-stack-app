@@ -1,5 +1,5 @@
 {
-  "name": "create-stack-app",
+  "name": "@zyprush_org/create-stack-app",
   "version": "0.1.0",
   "description": "A modern CLI to scaffold full-stack applications with frameworks, auth, databases, and more",
   "type": "module",
@@ -37,9 +37,9 @@
     "url": "git+https://github.com/Zyprush/create-stack-app.git"
   },
   "bugs": {
-    "url": "https://github.com/Zyprush/create-stack-app/issues"
+    "url": "https://github.com/Zyprush/@zyprush_org/create-stack-app/issues"
   },
-  "homepage": "https://github.com/Zyprush/create-stack-app#readme",
+  "homepage": "https://github.com/Zyprush/@zyprush_org/create-stack-app#readme",
   "engines": {
     "node": ">=18"
   },
