@@ -102,21 +102,9 @@ export async function runCreate(input: { dir: string; yes: boolean; dryRun: bool
   const plan = await enhancedPlanner.createEnhancedPlan(config);
 
   if (input.dryRun) {
-    // Intentionally minimal output for dry-run mode
     process.stdout.write(JSON.stringify(plan, null, 2) + "\n");
     return;
   }
-
-  const { confirm } = input.yes
-    ? { confirm: true }
-    : await prompts({
-        type: "confirm",
-        name: "confirm",
-        message: `Create project in ${path.relative(process.cwd(), targetDir) || "."}?`,
-        initial: true
-      });
-
-  if (!confirm) return;
 
   await executePlan({ targetDir, plan });
 
